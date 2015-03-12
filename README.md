@@ -1,5 +1,7 @@
 # Kibana Dockerfile
 
+NOTE: If you want to run the whole ELK stack checkout: https://github.com/denibertovic/elk-stack-docker
+
 First we need to make sure Elasticsearch is running
 
     docker run --name elasticsearch -d -t denibertovic/elasticsearch
